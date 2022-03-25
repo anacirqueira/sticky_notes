@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #009570;
+  background-color: #009578;
 }
 
 #app {
@@ -31,4 +31,8 @@ body {
   font-size: 110px;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
+}
+
+.add-note:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
