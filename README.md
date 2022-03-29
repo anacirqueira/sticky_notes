@@ -1,4 +1,4 @@
-# sticky_notes
+# Sticky_notes ><
 
 Projeto de notas adesivas criado para estudo e desenvolvimento do meu conhecimento lógico.
 
