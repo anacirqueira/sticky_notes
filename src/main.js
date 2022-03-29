@@ -1,5 +1,5 @@
 const notesContainer = document.getElementById("app");
-const addNoteButton = notesContainer.querySelector(".add-note")
+const addNoteButton = notesContainer.querySelector(".add-note");
 
 getNotes().forEach((note) => {
   const noteElement = createNoteElement(note.id, note.content);
@@ -13,10 +13,10 @@ function getNotes() {
 }
 
 function saveNotes(notes) {
-  localStorage.setItem("stockynotes-notes", JSON.stringify(notes));
+  localStorage.setItem("stickynotes-notes", JSON.stringify(notes));
 }
 
-function createNotesElement(id, content) {
+function createNoteElement(id, content) {
   const element = document.createElement("textarea");
 
   element.classList.add("note");
@@ -27,15 +27,15 @@ function createNotesElement(id, content) {
     updateNote(id, element.value);
   });
 
-element.addEventListener("dbclick", () => {
-  const doDelete = confirm(
-    "Tem certeza que deseja excluir essa nota?"
-  );
+  element.addEventListener("dblclick", () => {
+    const doDelete = confirm(
+      "Are you sure you wish to delete this sticky note?"
+    );
 
-  if (doDelete) {
-    deleteNote(id, element);
-  }
-});
+    if (doDelete) {
+      deleteNote(id, element);
+    }
+  });
 
   return element;
 }
@@ -43,7 +43,8 @@ element.addEventListener("dbclick", () => {
 function addNote() {
   const notes = getNotes();
   const noteObject = {
-    id: Math.floor(Math.random() * 10000),
+    id: Math.floor(Math.random() * 100000),
+    content: ""
   };
 
   const noteElement = createNoteElement(noteObject.id, noteObject.content);
