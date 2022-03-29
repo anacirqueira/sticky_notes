@@ -4,7 +4,7 @@ Projeto de notas adesivas criado para estudo da linguagem JavaScript
 
 ##
 
-Link para voce testar => https://gleeful-mousse-fc7a5c.netlify.app
+Link para voce testar => https://stickynotesss.netlify.app
 
 ##
 
