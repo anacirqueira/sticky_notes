@@ -1,6 +1,6 @@
-# Sticky_notes ><
+# Sticky_notes  ><
 
-Projeto de notas adesivas criado para estudo e desenvolvimento do meu conhecimento lógico.
+Projeto de notas adesivas criado para estudo da linguagem JavaScript
 
 - O que é possível fazer no Sticky notes? 
 
