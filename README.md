@@ -1,4 +1,4 @@
-# Sticky_notes  ><
+# Sticky notes ou Bloco de notas
 
 Projeto de notas adesivas criado para estudo da linguagem JavaScript
 
